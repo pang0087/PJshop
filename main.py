@@ -12,8 +12,6 @@ intents.members = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-TOKEN = 'MTI5MDk0MzczNDYyMzc2ODU3Ng.GWcZgr.hbHpE8mSF7xWvp6aSY6V6GWHzOrTxWoZ-0fLVA'
-
 # รายการสินค้าที่ให้ผู้ซื้อเลือก
 products = {
     "หัวแข่ง": "https://www.youtube.com/",
@@ -114,4 +112,4 @@ async def ซื้อขาย(ctx):
 
 server_on()
 
-bot.run(os.getenv(''))
+bot.run(os.getenv('TOKEN'))
